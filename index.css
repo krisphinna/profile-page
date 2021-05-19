@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0px;
+    font-family: Arial, helvatical, sans-serif;
+    line-height: 3.2rem;
+    background-color: rgb(0, 23, 55, 0.5);
+  }
+  ul{
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: white; 
+  }
+  img {
+    display: block;
+    height: 300px;
+    width: 440px;
+  }
+  h1 {
+    font-weight: 700px;
+    text-align: center;
+    font-size: 2rem
+  }
+  p {
+    text-align: center;
+    font-weight: 700px;
+    font-size: 2rem
+  }
+  
+  /*navbar styling*/
+  #navbar {
+    display: flex;
+    justify-content: flex-end;  
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    background: rgb(0, 23, 55, 0.7);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  }
+  #navbar ul {
+    display: flex;
+    margin-right: 2.2rem;
+  }
+  @media (max-width: 28.6em) {
+    #navbar {
+      justify-content: center;
+  }
+  }
+  #navbar a {
+    display: block;
+    padding: 1.2rem;
+    font-size: 1.8rem
+  }
+  #navbar a:hover {
+    background-color: #779ae7;
+  }
+  /*section styling*/
+  
+  #welcome-section {
+    margin-top: 90px;
+    background-color: #77bee7;
+    padding: 50px 0 50px 0;
+    height: 265px;
+    width: 100%
+  }
+  #welcome-section p {
+    font-style: italic;
+  }
+  #projects {
+    margin-top: 70px;
+  }
+  #projects h1 {
+    position: relative;
+    bottom: 40px;
+    color: white;
+  }
+   .project-section {
+    display: flex ;
+    justify-content: space-between
+  }
+  @media (max-width: 38.6rem) {
+    .project-section {
+      display: inline-block;
+      margin-left: 60px;
+    }  
+  }
+  .project-tile {
+    display: block;
+    padding: 0 5px 0px 2px
+  }
+  .project-tile p {
+    background-color: rgb(0, 23, 55, 0.7);
+    font-size: 1.2rem;
+  }
+  #content-section {
+    margin-top: 50px;
+    padding-top: 30px;
+    line-height: 3.5rem;
+    color: white;
+  }
+  #content-section p {
+    font-style: italic;
+  }
+    
+  #profile-link {
+    background: rgb(0, 23, 55, 0.7);
+    margin-top: 50px
+  }
+  #profile-link ul {
+    display: flex;
+    justify-content: center;
+  }
+  #profile-link li {
+    padding: 20px;
+    font-size: 1.3rem
+  }
+  #profile-link img {
+    width: 50px;
+    height: 50px
+  }
+  #profile-link img:hover {
+    transform: translateY(5px)  
+  }
+  
